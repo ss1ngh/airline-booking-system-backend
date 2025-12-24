@@ -1,0 +1,19 @@
+{
+  "name": "airline-booking-system-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ss1ngh/airline-booking-system-backend.git"
+  },
+  "author": "Shreyansh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ss1ngh/airline-booking-system-backend/issues"
+  },
+  "homepage": "https://github.com/ss1ngh/airline-booking-system-backend#readme",
+  "description": ""
+}
