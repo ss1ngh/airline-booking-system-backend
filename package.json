@@ -15,5 +15,12 @@
     "url": "https://github.com/ss1ngh/airline-booking-system-backend/issues"
   },
   "homepage": "https://github.com/ss1ngh/airline-booking-system-backend#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "http-status-codes": "^2.3.0",
+    "nodemon": "^3.1.11",
+    "winston": "^3.19.0"
+  }
 }
