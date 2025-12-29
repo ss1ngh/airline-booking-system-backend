@@ -15,6 +15,12 @@ datasource db {
 
 model User { 
   id    Int @id @default(autoincrement())
-  email String
+  email String 
   name  String
+}
+
+model Airplane {
+  id          Int @id @default(autoincrement())
+  modelNumber String 
+  capacity    Int @default(0) 
 }

@@ -5,7 +5,7 @@ const customFormat = printf(( { level, label, timestamp, message } ) => {
     return `${timestamp} : [${label}] : ${level}: ${message}`;
 })
 
-const logger = createLogger({
+const Logger = createLogger({
     format: combine(
         timestamp({format: 'YYYY-MM-DD HH:mm:ss'}),
         customFormat
@@ -16,4 +16,4 @@ const logger = createLogger({
     ],
 });
 
-module.exports = logger;
+module.exports = Loggerogger;
